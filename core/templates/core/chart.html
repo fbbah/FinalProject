@@ -1,19 +1,27 @@
+{% extends 'core/base.html' %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static '/styles.css' %}">
     <title>Document</title>
 </head>
 <body>
 
-    <p>Home</p>      <p>Sections</p>     <p>Contact</p>     <p>About</p>
 
 
+    <h1>Home</h1>      <p>Sections</p>     <p>Contact</p>     <p>About</p>
+
+    <header>
     <h1> Prescription Drug Abuse</h1>
+    </header>
 
-    <h1>What is Prescription Drug Abuse</h1>
-<section>
+    <header1>
+    <h1>What is Prescription Drug Abuse</h1> </header1>
+    
+    {% block content %}
     <p>Prescription drug abuse is when someone uses medication in a way that is not intended by a doctor. This can include taking someone else's medicine, using more than the prescribed amount, or taking it to feel a different effect, like getting high. This misuse can be very dangerous and lead to health problems, addiction, or even death. It's important to use prescription drugs only as directed by a healthcare professional to stay safe and healthy.</p>
 
     <h1> SYMTOMS OF PRESCRIPTIONS DRUG ABUSE </h1>
@@ -53,16 +61,7 @@
         <p>The rise in prescription drug abuse is influenced by several factors, including increased availability and prescription rates due to overprescription and aggressive marketing by pharmaceutical companies, which have made these drugs more accessible. Many people perceive prescription drugs as safer than illegal drugs, leading to misuse driven by misconceptions and lack of awareness about their addictive potential.</p>
         <p>Economic factors, like limited access to healthcare, and the presence of unused medications in households further exacerbate the issue. Inadequate monitoring and regulation, despite the implementation of Prescription Monitoring Programs (PMPs), allow for practices like "doctor shopping."</p>
         <p>Mental health issues also play a significant role, with individuals self-medicating for conditions like anxiety, depression, or chronic pain. Social and cultural factors, such as the social acceptance of prescription drug misuse and peer pressure, particularly among teenagers and young adults, contribute to the problem.</p>
-       
-        
 
-        {% extends 'core/base.html' %}
-
-  
-    
-
-
-    {% block content %}
 
         
     {{ chart|safe }}
