@@ -1,14 +1,76 @@
-{% extends 'core/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>What is Prescription Drug Abuse</h1>
+<section>
+    <p>Prescription drug abuse is when someone uses medication in a way that is not intended by a doctor. This can include taking someone else's medicine, using more than the prescribed amount, or taking it to feel a different effect, like getting high. This misuse can be very dangerous and lead to health problems, addiction, or even death. It's important to use prescription drugs only as directed by a healthcare professional to stay safe and healthy.</p>
 
-{% block content %}
+    <h1> SYMTOMS OF PRESCRIPTIONS DRUG ABUSE </h1>
 
-{{ chart|safe }}
+    <h2>Physical Symptoms:</h2>
 
-{{ chart2|safe }}
+    <p>Changes in appetite or weight
+    Unusual body odors</p>
 
-{{ chart3|safe }}
+    <p>Drowsiness
+    Extreme fatigue
+    Slurred speech
+    Poor coordination</p>
+    
+    <h2>Psychological Symptoms:</h2>
 
-{{ chart4|safe }}
+    <p>Mood swings 
+    Increased irritability
+    Anxiety or paranoia</p>
+
+    <p>Depression
+        Confusion 
+       Difficulty concentrating</p>
+
+    <h2>Behavioral Symptoms:</h2>
+
+       <p>Frequent requests for refills before the prescription is due
+        "Doctor shopping" (visiting multiple doctors to obtain more prescriptions)</p>
+        
+        <p>Changes in social behavior, such as withdrawing from friends and family
+            Engaging in risky behaviors</p>
+
+        <h3>If you notice these signs in yourself or someone else, it's important to seek help from a healthcare professional.</h3>
+
+        <h1>Why is it on the Rise?</h1>
+
+        <p>The rise in prescription drug abuse is influenced by several factors, including increased availability and prescription rates due to overprescription and aggressive marketing by pharmaceutical companies, which have made these drugs more accessible. Many people perceive prescription drugs as safer than illegal drugs, leading to misuse driven by misconceptions and lack of awareness about their addictive potential.</p>
+        <p>Economic factors, like limited access to healthcare, and the presence of unused medications in households further exacerbate the issue. Inadequate monitoring and regulation, despite the implementation of Prescription Monitoring Programs (PMPs), allow for practices like "doctor shopping."</p>
+        <p>Mental health issues also play a significant role, with individuals self-medicating for conditions like anxiety, depression, or chronic pain. Social and cultural factors, such as the social acceptance of prescription drug misuse and peer pressure, particularly among teenagers and young adults, contribute to the problem.</p>
+        {% extends 'core/base.html' %}
+
+  
+    
 
 
-{% endblock content %}
+    {% block content %}
+        
+    {{ chart|safe }}
+
+    <p>The most commonly abused prescription is Opioids.
+
+        Opioids are typically prescribed for pain relief. Commonly abused opioids include oxycodone (OxyContin), hydrocodone (Vicodin), and morphine.
+        
+        They produce euphoria by increasing dopamine levels in the brain, which can lead to misuse. Tolerance builds quickly, requiring higher doses and increasing addiction risk. 
+        
+        Physical dependence can also lead to withdrawal symptoms if usage is reduced or stopped. Misuse occurs when people take higher doses than prescribed, use someone else's medication, or seek the drug for non-medical reasons. 
+        <p>
+    {{ chart2|safe }}
+
+    {{ chart3|safe }}
+
+    {{ chart4|safe }}
+
+    {% endblock content %}
+</body>
+</html>
