@@ -1,0 +1,149 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a7d2f9;
+    color: #333;
+}
+
+header {
+    background-color: #6a9dd1; 
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #b0e57c;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 16px;
+    color: #b0e57c;
+    text-decoration: none;
+    text-align: right;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #ffb347; 
+    color: white;
+}
+
+section {
+    padding: 2em;
+    margin: 1em auto;
+    background-color: green;
+    border-radius: 8px;
+    box-shadow:rgba(0,0,0,0.5);
+    max-width: 800px;
+}
+
+h1, h2, h3 {
+    color: rgb(67, 67, 207);
+}
+
+h1 {
+    border-bottom: 5px solid #ffb3ba;
+    padding-bottom: 0.5em;
+}
+
+p {
+    line-height: 1.0;
+}
+
+section.colored-section {
+    background-color: #a1c9f1; 
+    height: 200000px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #ffb347; 
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.section1 {
+    background-color: #b0e57c; 
+}
+
+.section2 {
+    background-color: #ffb347; 
+}
+
+.section3 {
+    background-color: #ffb3ba; 
+}
+
+.section4 {
+    background-color: #ffb347;
+}
+
+.section5 {
+    background-color: #b0e57c; 
+}
+
+.section6 {
+    background-color: #ffb347; 
+}
+
+.section7 {
+    background-color: #ffb3ba; 
+}
+
+.section8 {
+    background-color: #ffb347; 
+}
+
+.section10 {
+    background-color: #ffb3ba; 
+}
+
+.section11 {
+    background-color: #b0e57c; 
+}
+
+ul {
+    /*   position: fixed; */
+      top: 0;
+      width: 100%;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:  yellow;
+      
+    }
+    
+    li{
+      float: right;
+    }
+    
+    li a {
+      display: block;
+      color: black;
+      text-align: right;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover{
+      background-color: #111;
+    }
+
+   
